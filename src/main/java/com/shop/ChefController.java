@@ -10,6 +10,7 @@ public class ChefController {
     @GetMapping("/hello")
     @ResponseBody  // This tells Spring to return raw text instead of a view
     public String helloWorld() {
+        System.out.println(" trying first time the spring  MVC");
         return "hello jii";  // This will be returned as plain text
     }
 }
